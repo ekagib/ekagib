@@ -1,0 +1,54 @@
+:root {
+  --color-primary: #121212;
+  --color-secondary: #16a34a;
+}
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-primary);
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  font-size: 1.25rem;
+  max-width: 1400px;
+  margin: auto;
+  padding: 2rem 2rem;
+}
+
+.typo-caption {
+  font-size: 1rem;
+}

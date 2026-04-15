@@ -1,0 +1,54 @@
+---
+
+---
+
+<header>
+  <p class="site-name">ekagib.com</p>
+  <nav>
+    <ul class="main-nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/fun">Fun</a></li>
+    </ul>
+  </nav>
+  <button class="cta">Let's collab!</button>
+</header>
+
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    padding: 1rem 2rem;
+  }
+
+  .site-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .main-nav {
+    display: flex;
+    gap: 16px;
+    font-size: 1.25rem;
+  }
+
+  .cta {
+    padding: 8px 16px;
+    background-color: var(--color-primary);
+    border-color: transparent;
+    color: white;
+    border: 1px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .cta:hover {
+    background-color: var(--color-secondary);
+  }
+</style>
