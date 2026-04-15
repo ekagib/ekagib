@@ -1,0 +1,26 @@
+{
+  "name": "ekagib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekagib/ekagib.git"
+  },
+  "keywords": [],
+  "author": "Eka Gibran Hasany",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ekagib/ekagib/issues"
+  },
+  "homepage": "https://github.com/ekagib/ekagib#readme",
+  "dependencies": {
+    "astro": "^6.1.6"
+  }
+}
